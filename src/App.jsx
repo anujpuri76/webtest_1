@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Products from "./components/Products";
+import ImageSlider from "./components/ImageSlider";
+import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
@@ -18,7 +20,9 @@ function First() {
       <div>
         <Header />
         <Nav />
+        <ImageSlider/>
         <Products/>
+        <Contact/>
         <Footer />
       </div>
     </>
