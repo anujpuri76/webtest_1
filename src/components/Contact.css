@@ -44,7 +44,10 @@ form {
   gap: 15px;
 }
 
-
+input:focus {
+  outline: none;
+  border: none;
+}
 input, textarea {
   width: 100%;
   padding: 12px;
