@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className='nav'>
       <marquee behavior="alternate" direction="right">
-        <h1>Nav</h1>
+        <h1>NavBar</h1>
       </marquee>
     </div>
   )
