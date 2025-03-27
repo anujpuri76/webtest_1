@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Products from "./components/Products";
 import ImageSlider from "./components/ImageSlider";
 import Contact from "./components/Contact";
+import Bannr from "./components/bannr";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function First() {
         <Nav />
         <ImageSlider/>
         <Products/>
+        <Bannr/>
         <Contact/>
         <Footer />
       </div>

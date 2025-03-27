@@ -3,27 +3,31 @@
   color: white;
   padding: 40px 20px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .footer-top {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 300px;
   margin-bottom: 30px;
 }
 
 .footer-contact {
   display: flex;
   align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .footer-icon {
   font-size: 20px;
   color: white;
 }
-
+#cn:hover{
+   color: orange;
+}
 
 .footer-content {
   display: flex;
@@ -92,21 +96,26 @@ input:focus {
   border: none;
 }
 
-.subscribe-btn {
-  background-color: #64a6ac;
-  color: white;
-  border: none;
-  padding: 10px;
-  width: 100%;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 5px;
-}
-
 .subscribe-btn:hover {
   background-color: #4a8a91;
 }
 
+#btn3 {
+  background-color: #64a6ac;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+#btn3:hover {
+  background-color: transparent;
+  border: 1px solid #64a6ac;
+  color: #64a6ac;
+}
 
 .social-icons {
   display: flex;
@@ -126,6 +135,7 @@ input:focus {
 }
 
 .social-icon:hover {
-  background-color: #64a6ac;
-  border-color: #64a6ac;
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
 }

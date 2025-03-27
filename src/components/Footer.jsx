@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
-        <div className="footer-contact">
-          <FaPhoneAlt className="footer-icon" />
+        <div className="footer-contact" id="cn" >
+          <FaPhoneAlt className="footer-icon" id="cn" />
           <p>Call : +01 12345678990</p>
         </div>
-        <div className="footer-contact">
-          <FaEnvelope className="footer-icon" />
+        <div className="footer-contact" id="cn">
+          <FaEnvelope className="footer-icon" id="cn" />
           <p>Email : demo@gmail.com</p>
         </div>
-        <div className="footer-contact">
-          <FaMapMarkerAlt className="footer-icon" />
+        <div className="footer-contact" id="cn">
+          <FaMapMarkerAlt className="footer-icon" id="cn" />
           <p>Location</p>
         </div>
       </div>
@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        
+
         <div className="footer-section">
           <h3>INSTAGRAM FEEDS</h3>
           <div className="insta-grid">
@@ -45,11 +45,11 @@ const Footer = () => {
           </div>
         </div>
 
-       
+
         <div className="footer-section">
           <h3>SIGN UP TO OUR NEWSLETTER</h3>
           <input type="email" placeholder="Enter Your Email" />
-          <button className="subscribe-btn">Subscribe</button>
+          <button className="subscribe-btn" id="btn3">Subscribe</button>
           <div className="social-icons">
             <FaFacebookF className="social-icon" />
             <FaTwitter className="social-icon" />
