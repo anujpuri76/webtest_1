@@ -7,7 +7,7 @@ const FurnitureList = () => {
   const furnitureItems = [
     {
       id: 1,
-      name: "BROWN CHAIR DESIGN",
+      name: "BLUE CHAIR DESIGN",
       price: 100,
       image: "/images/f1.png", // Replace with actual image path
     },
