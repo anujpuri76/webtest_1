@@ -2,14 +2,12 @@ import React from 'react'
 import './Nav.css'
 const Nav = () => {
   return (
-     <header className="head">
+    <header className="head">
       <nav className="navbar">
-  
+
         <div className="logo">
           <a href="#">EDGECUT</a>
         </div>
-
-    
         <ul className="nav-links">
           <li>
             <a href="#" className="active">
@@ -41,6 +39,7 @@ const Nav = () => {
     </header>
   );
 };
+
 
 
 
