@@ -2,7 +2,7 @@ import React from 'react'
 import './Nav.css'
 const Nav = () => {
   return (
-    <header className="head">
+    <header class="head">
       <nav className="navbar">
 
         <div className="logo">
