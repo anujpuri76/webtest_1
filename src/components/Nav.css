@@ -3,8 +3,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f2f1f1;
+  background: #9ACBD0;
   padding: 15px 20px;
+  height: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family:'Courier New', Courier, monospace;
+}
+#brand{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 35px;
+  padding-left: 20px;
+  text-shadow: 2px 2px 4px rgb(116, 116, 116);
+  
 }
 
 .logo a {
@@ -12,9 +23,11 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
+  text-shadow: 2px 2px 8px wheat;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-.nav-links {
+.links {
   display: flex;
   justify-content: center;
   flex-grow: 1;
@@ -22,20 +35,24 @@
   gap: 50px; 
   margin: 0;
   padding: 0;
+  padding-top: 20px;
 }
 
-.nav-links li {
+.links li {
   display: flex;
   align-items: center;
 }
 
-.nav-links a {
+.links ul{
+  text-decoration: none;
+}
+.links a{
   text-decoration: none;
   color: black;
   padding: 8px 12px;
 }
 
-.nav-links .active {
+.links .active {
   border-bottom: none;
 }
 
@@ -80,3 +97,4 @@ header{
     margin-top: 10px;
   }
 }
+

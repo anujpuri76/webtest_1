@@ -1,35 +1,11 @@
-import React from "react";
-import './App.css';
-import Footer from "./components/Footer";
-import Nav from "./components/Nav";
-import Products from "./components/Products";
-import ImageSlider from "./components/ImageSlider";
-import Contact from "./components/Contact";
-import Bannr from "./components/bannr";
-import CardsD from "./components/CardsD";
-function App() {
+import React from 'react'
+import AppRoutes from "./Routes/Routes";
+import './App.css'
+const App = () => {
   return (
-    <div className="App">
-      <First />
-    </div>
-  );
-}
-
-function First() {
-  return (
-    <>
-      <div>
-        <Nav />
-        <ImageSlider/>
-        <Products/>
-        <Bannr/>
-        <CardsD/>
-        <Contact/>
-        <Footer />  
-      </div>
-    </>
-
+    <AppRoutes/>
   )
 }
 
 export default App
+
