@@ -3,7 +3,7 @@ import './Products.css';
 import FurnitureItem from "./furnitureitems";
 
 
-const FurnitureList = () => {
+const Products = () => {
   const furnitureItems = [
     {
       id: 1,
@@ -56,4 +56,4 @@ const FurnitureList = () => {
   );
 };
 
-export default FurnitureList;
+export default Products;

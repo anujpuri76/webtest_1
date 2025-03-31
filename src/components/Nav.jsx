@@ -1,38 +1,52 @@
 import React from 'react'
 import './Nav.css'
+import { NavLink } from 'react-router-dom';
 const Nav = () => {
   return (
     <header class="head">
       <nav className="navbar">
+        <h1 id='brand'>
+          EDGECUT
+        </h1>
+        <ul className="links">
+          <li>
+            <NavLink
+              to="/">
+              <h2>HOME</h2>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about">
+              <h2>ABOUT</h2>
+            </NavLink>
 
-        <div className="logo">
-          <a href="#">EDGECUT</a>
-        </div>
-        <ul className="nav-links">
-          <li>
-            <a href="#" className="active">
-              HOME
-            </a>
           </li>
           <li>
-            <a href="#">ABOUT</a>
+            <NavLink
+              to="furnitures">
+              <h2>FURNITURES</h2>
+            </NavLink>
           </li>
           <li>
-            <a href="#">FURNITURES</a>
+            <NavLink
+              to="blog">
+              <h2>BLOG</h2>
+            </NavLink>
           </li>
           <li>
-            <a href="#">BLOG</a>
-          </li>
-          <li>
-            <a href="#">CONTACT US</a>
+            <NavLink
+              to="contact_us">
+              <h2>CONTACT US</h2>
+            </NavLink>
           </li>
         </ul>
 
 
         <div className="right-section">
-          <a href="#" className="login">
-            LOGIN
-          </a>
+          <NavLink to="login" className="login">
+            Login
+          </NavLink>
           <span className="search-icon">🔍</span>
         </div>
       </nav>
